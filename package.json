@@ -1,0 +1,31 @@
+{
+  "name": "izzyz-trading-tools-website",
+  "version": "1.0.0",
+  "description": "Izzyz Trading Tools Platform - A comprehensive trading tools platform",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Please run dev from individual apps'",
+    "build": "echo 'Please run build from individual apps'",
+    "lint": "echo 'Please run lint from individual apps'",
+    "test": "echo 'Please run test from individual apps'",
+    "clean": "rm -rf node_modules && rm -rf apps/*/node_modules && rm -rf packages/*/node_modules"
+  },
+  "keywords": [
+    "trading",
+    "tools",
+    "platform",
+    "nextjs",
+    "typescript",
+    "tailwind"
+  ],
+  "author": "Izzy Blau",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
